@@ -67,5 +67,5 @@ async def on_message(message):
         em.set_image(url='http://rickriordan.com/content/plugins/rick-riordan-helper/assets/images/camp-half-blood.png')
         await client.send_message(message.channel, embed=em)
     if message.content == '!Prophecy':
-        await client.send_message(message.channel,'He took a moment to recall it before speaking clearly " To find the hammer strong and true; A group of four including you; At the God of Fire's request; you must travel west; Both friend and foe you shall meet; Bound by bonds you cannot beat" He took a moment to give an illusion of a breath "Did I do good?"')
+        await client.send_message(message.channel,'*He took a moment to recall it before speaking clearly* To find the hammer strong and true; A group of four including you; At the God of Fires request; you must travel west; Both friend and foe you shall meet; Bound by bonds you cannot beat. *He took a moment to give an illusion of a breath* Did I do good?')
 client.run('NTA3NTM1OTAzMDgyOTM4Mzc4.DryI-A.tvQGQNE1pm59TNov35mURjAwjO8')
